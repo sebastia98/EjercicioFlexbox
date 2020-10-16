@@ -1,0 +1,142 @@
+.container {
+  background-color: black;
+  width: 450px;
+  height: 300px;
+  margin: 20px 2px;
+}
+
+.container div {
+  color: white;
+  background-color: blue;
+
+  font-size: 25px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+
+  margin:10px;
+  padding: 20px 30px;
+}
+
+
+/**
+CONTAINER C01
+**/
+.c01 {
+/********* ADD YOUR CODE  HERE **********/
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+/********* END OF YOUR CODE **********/
+}
+.c01 div {
+  background-color:red;
+}
+
+
+/**
+CONTAINER C02
+**/
+.c02 {
+  /********* ADD YOUR CODE  HERE **********/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /********* END OF YOUR CODE **********/
+  }
+  .c02 div {
+    background-color: orange;
+  }
+
+
+/**
+CONTAINER C03
+**/
+.c03 {
+  /********* ADD YOUR CODE  HERE **********/
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column-reverse;
+  /********* END OF YOUR CODE **********/
+}
+.c03 div {
+  background-color: green;
+}
+
+
+/**
+CONTAINER C04
+**/
+.c04 {
+  /********* ADD YOUR CODE  HERE **********/
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  /********* END OF YOUR CODE **********/
+}
+.c04 div {
+  background-color: blue;
+}
+.c04 div:nth-child(1) {
+  flex-grow:2;
+}
+.c04 div:nth-child(9) {
+  flex-grow:2;
+}
+
+
+/**
+CONTAINER C05
+**/
+.c05 div {
+  background-color: orangered;
+  padding: 20px 40px;
+  margin:3px;
+}
+  /********* ADD YOUR CODE  HERE **********/
+.c05{
+  display: flex;
+  align-items: center;
+}
+.c05 div:nth-child(1){
+  display: flex;
+  flex-grow: 1;
+}
+.c05 div:nth-child(2){
+  display: flex;
+  flex-grow: 2;
+}
+  /********* END OF YOUR CODE **********/
+
+
+/**
+CONTAINER C06
+**/
+.c06 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.c06 div {
+  padding: 20px 40px;
+  margin:5px;
+  
+}
+  /********* ADD YOUR CODE  HERE **********/
+.c06 div:nth-child(4){
+  display: flex;
+  order: -1;
+}
+.c06 div:nth-child(1){
+  display: flex;
+  align-self: flex-start;
+}
+.c06 div:nth-child(2){
+  display: flex;
+  align-self: flex-end;
+}
+  /********* END OF YOUR CODE **********/
